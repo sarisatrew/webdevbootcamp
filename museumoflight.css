@@ -1,0 +1,114 @@
+body {
+  background: #000000;
+  font-family: "Nunito", sans-serif;
+  color: white;
+}
+
+.blurb h2 {
+  font-weight: 100;
+  font-size: 2.5rem;
+}
+
+.blurb p {
+  color: #A8A8A8;
+  font-weight: 100;
+  font-size: 1.125rem;
+  line-height: 2.0;
+
+}
+
+
+.content {
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+#mainNavbar {
+  font-weight: 100;
+  letter-spacing: 3px;
+}
+#mainNavbar .nav-link {
+  color: white;
+}
+#mainNavbar .nav-link:hover{
+  color: red;
+}
+#mainNavbar .navbar-brand {
+  color: red;
+    font-size: 1.5rem;
+  letter-spacing: 4px;
+
+}
+
+#headingGroup span {
+  color: red;
+}
+
+#headingGroup h1 {
+  font-weight: 100;
+  font-size: 2.5rem;
+}
+
+.navbar.scrolled {
+  background: #A8A8A8;
+  transition: background 4s;
+}
+
+
+@media (max-width: 1200px) {
+  #headingGroup h1 {
+    font-weight: 100;
+    font-size: 2.0rem;
+  }
+}
+
+  .zoomOutDown  {
+-webkit-animation-name: zoomOutDown;
+animation-name: zoomOutDown;
+-webkit-animation-duration: 10s;
+animation-duration: 10s;
+-webkit-animation-fill-mode: both;
+animation-fill-mode: both;
+}
+@-webkit-keyframes zoomOutDown {
+40% {
+opacity: 1;
+-webkit-transform: scale3d(.475, .475, .475) translate3d(0, -60px, 0);
+transform: scale3d(.475, .475, .475) translate3d(0, -60px, 0);
+-webkit-animation-timing-function: cubic-bezier(0.550, 0.055, 0.675, 0.190);
+animation-timing-function: cubic-bezier(0.550, 0.055, 0.675, 0.190);
+}
+100% {
+opacity: 0;
+-webkit-transform: scale3d(.1, .1, .1) translate3d(0, 2000px, 0);
+transform: scale3d(.1, .1, .1) translate3d(0, 2000px, 0);
+-webkit-transform-origin: center bottom;
+transform-origin: center bottom;
+-webkit-animation-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1);
+animation-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1);
+}
+}
+@keyframes zoomOutDown {
+40% {
+opacity: 1;
+-webkit-transform: scale3d(.475, .475, .475) translate3d(0, -60px, 0);
+transform: scale3d(.475, .475, .475) translate3d(0, -60px, 0);
+-webkit-animation-timing-function: cubic-bezier(0.550, 0.055, 0.675, 0.190);
+animation-timing-function: cubic-bezier(0.550, 0.055, 0.675, 0.190);
+}
+100% {
+opacity: 0;
+-webkit-transform: scale3d(.1, .1, .1) translate3d(0, 2000px, 0);
+transform: scale3d(.1, .1, .1) translate3d(0, 2000px, 0);
+-webkit-transform-origin: center bottom;
+transform-origin: center bottom;
+-webkit-animation-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1);
+animation-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1);
+}
+}
+
+#decorLine {
+  font-size: 10rem;
+
+  font-weight: 1;
+  font-family: "Nunito", sans-serif;
+}
